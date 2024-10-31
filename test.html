@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War Card Game Test</title>
+  
+<link rel="stylesheet" href="./node_modules/mocha/mocha.css">
+</head>
+<body>
+<h1>Mocha Chai Testing</h1>
+<div id="mocha"></div>
+<script src="https://unpkg.com/mocha/mocha.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.3.4/chai.js" integrity="sha512-qDtXqvTiGAZbBw0oXQl0DdO2Zcf91U6Qy8at56bzyj5DSJ0pMJefTbQgkaCl1vvo+rkqd8tmZH4pH6uPPMjd9A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<div id="messages"></div>
+<div id="fixtures"></div>
+
+
+
+<!-- <script src="./node_modules/mocha/mocha.js"></script> -->
+
+<!-- <script src="https://unpkg.com/chai/chai.js"></script> -->
+<!-- <script src="./node_modules/chai/chai.js"></script> -->
+
+<script>
+    mocha.setup("bdd")
+    window.expect = chai.expect
+</script>
+<script src="./script.js"></script>
+<script  src="./test.js"></script>
+<script>
+    mocha.run()
+</script>
+</body>
+</html>
