@@ -160,7 +160,7 @@ class Game {
 
   //Instantiates or creates an instance of the Game class
 const game = new Game()
-// game.playGame()
+game.playGame()
 
 // const customDeck = new Deck()
 //Exports the game so other areas of code can access it
